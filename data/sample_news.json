@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Aliens built a new city on the Moon",
+    "text": "A viral post falsely claimed aliens built a city on the Moon.",
+    "label": "FAKE"
+  },
+  {
+    "title": "Miracle herb cures every disease",
+    "text": "No scientific evidence supports this claim.",
+    "label": "FAKE"
+  },
+  {
+    "title": "Government announces free cars for everyone",
+    "text": "The claim is fabricated.",
+    "label": "FAKE"
+  },
+  {
+    "title": "Celebrity adopts 1000 pets in one day",
+    "text": "This story is fictional.",
+    "label": "FAKE"
+  },
+  {
+    "title": "Chocolate doubles IQ overnight",
+    "text": "There is no evidence for this.",
+    "label": "FAKE"
+  },
+  {
+    "title": "City opens new public library",
+    "text": "The local authority inaugurated a new library.",
+    "label": "TRUE"
+  },
+  {
+    "title": "School science fair held successfully",
+    "text": "Students presented innovative projects.",
+    "label": "TRUE"
+  },
+  {
+    "title": "Weather department predicts rainfall",
+    "text": "Rain is expected this weekend.",
+    "label": "TRUE"
+  },
+  {
+    "title": "Health camp organized in village",
+    "text": "Doctors provided free checkups.",
+    "label": "TRUE"
+  },
+  {
+    "title": "New bus route starts Monday",
+    "text": "Transport department announced the schedule.",
+    "label": "TRUE"
+  }
+]
