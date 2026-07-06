@@ -13,3 +13,16 @@ This folder contains the backend source code for the AI Fake News Detection proj
 ## API Routes
 - GET /api/health
 - POST /api/predict
+# Frontend
+
+This frontend is developed using:
+
+- HTML
+- CSS
+- JavaScript
+
+Features:
+- Input text box
+- Submit button
+- Loading indicator
+- Response area
