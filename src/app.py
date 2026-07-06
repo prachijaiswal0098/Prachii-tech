@@ -1,14 +1,29 @@
-from flask import Flask, jsonify
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-@app.route('/api/health')
+@app.route("/")
+def home():
+    return "Welcome to AI Fake News Detection API"
+
+@app.route("/api/health", methods=["GET"])
 def health():
-    return jsonify({"status":"Running"})
+    return jsonify({
+        "status": "Server Running"
+    })
 
-@app.route('/api/predict', methods=['POST'])
+@app.route("/api/predict", methods=["POST"])
 def predict():
-    return jsonify({"prediction":"Fake News"})
+    data = request.get_json()
 
-if __name__ == '__main__':
+    news = data.get("news", "")
+
+    prediction = "Fake"
+
+    return jsonify({
+        "news": news,
+        "prediction": prediction
+    })
+
+if __name__ == "__main__":
     app.run(debug=True)
